@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My First website</title>
+</head>
+<body>
+    <!--Single audio with no backups-->
+    <audio controls autoplay muted loop src="../audio resources/Mirage melody - Patrick Patrikios.mp3"></audio>
+    <br>
+    
+    <!--If we have backup audio files then this is best practice-->
+    <audio controls autoplay muted loop>
+            <source src="../audio resources/Dizzy (Sting) - Max Surla_Media Right Productions.mp3">
+            <source src="../audio resources/Mirage melody - Patrick Patrikios.mp3">
+            This browser does not support HTML5 audio <!--Message in case, if any of the audio files do not support-->
+    </audio>
+</body>
+</html>
