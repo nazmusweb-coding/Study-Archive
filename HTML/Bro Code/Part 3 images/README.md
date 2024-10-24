@@ -4,7 +4,7 @@
     <tr bgcolor="grey" style="text-align: center;">
         <th style="text-align: center;">Purpose</th>
         <th style="text-align: center;">Tag</th>
-        <th style="text-align: center;">Attributes</th>
+        <th style="text-align: center;">Common Attributes</th>
         <th style="text-align: center;">Sample Code</th>
         <th style="text-align: center;">Description</th>
     </tr>
