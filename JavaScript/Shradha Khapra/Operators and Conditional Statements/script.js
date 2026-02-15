@@ -10,3 +10,23 @@ console.log("Hello World!")
  * on our console window
  */ 
 console.log("hello woeld");
+
+/** 
+ * Arithmetic Operators
+ * Addition (+)
+ * Subtraction (-)
+ * Multiplication (*)
+ * Division (/)
+ * Modulus (%)
+ * Exponentiation (**)
+ */
+let a = 5;
+let b = 2;
+
+console.log("a =", a, "& b =", b);
+console.log("a + b =", a + b);
+console.log("a - b =", a - b);
+console.log("a * b =", a * b);
+console.log("a / b =", a / b);
+console.log("a % b =", a % b);
+console.log("a ** b =", a ** b);
