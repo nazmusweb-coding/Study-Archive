@@ -30,3 +30,28 @@ console.log("a * b =", a * b);
 console.log("a / b =", a / b);
 console.log("a % b =", a % b);
 console.log("a ** b =", a ** b);
+
+// Unary Operators
+/**
+ * Pre-Increment 
+ * Changes in line
+ */
+console.log("++a =", ++a);
+
+/**
+ * Post Increment (changes in next line)
+ * Changes in next line
+ */
+console.log("a++ =", a++);
+
+/**
+ * Pre-Decrement (changes in line)
+ * Changes in line
+ */
+console.log("--b =", --b);
+
+/**
+ * Post Decrement
+ * Changes in next line
+ */
+console.log("b-- =", b--);
