@@ -55,3 +55,36 @@ console.log("--b =", --b);
  * Changes in next line
  */
 console.log("b-- =", b--);
+
+/**
+ * Assignment Operators (assign values)
+ * Assignment (=)
+ * Addition assignment (+=)
+ * Subtraction assignment (-=)
+ * Multiplication assignment (*=)
+ * Modulus assignment (%=)
+ * Exponentiation assignment (**=)
+ * 
+ * We can you all the arithmetic operators
+ * in assignment operator's form
+ */
+let c = 5;
+let d = 2;
+
+// Assignment 
+console.log("c =", c);
+
+// Addition assignment
+console.log("c +=2, c =", c += 2);
+
+// Subtraction assignment
+console.log("c -=2, c =", c -= 2);
+
+// Multiplication assignment
+console.log("c *= 2, c =", c *= 2);
+
+// Modulus assignment
+console.log("c %= 2, c =", c %= 2);
+
+// Exponentiation assignment
+console.log("d **= 2, d =", d **= 2);
