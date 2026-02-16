@@ -155,3 +155,26 @@ console.log("e < f,", e < f);
  * Less than or equal
  */
 console.log("e <= f,", e <= f);
+
+/**
+ * Logical Operatos (evaluates multiple expressions)
+ * Logical AND &&
+ * Logical OR ||
+ * Logical NOT !
+ */
+
+// Logical AND logic table
+console.log("false && false =",false && false);
+console.log("false && true =", false && true);
+console.log("true && false =", true && false);
+console.log("true && true =", true && true);
+
+// Logical OR logic table
+console.log("false || false =",false || false);
+console.log("false || true =", false || true);
+console.log("true || false =", true || false);
+console.log("true || true =", true || true);
+
+// Logical NOT logic table
+console.log("!false =", !false);
+console.log("!true =",!true);
