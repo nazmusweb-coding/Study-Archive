@@ -178,3 +178,23 @@ console.log("true || true =", true || true);
 // Logical NOT logic table
 console.log("!false =", !false);
 console.log("!true =",!true);
+
+/**
+ * Conditional Statements
+ * if statement
+ * if-else statement
+ * else-if statement
+ */
+let age = 18;
+
+if (age >= 0 && age <= 12) {
+    console.log("you are child");
+} else if (age >= 13 && age <= 17) {
+    console.log("you are teenager");
+} else if (age >= 18 && age <= 59) {
+    console.log("you are adult");
+} else if (age >= 60) {
+    console.log("you are old");
+} else {
+    console.log("age is not valid");
+}
