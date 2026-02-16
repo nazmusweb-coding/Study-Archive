@@ -65,7 +65,7 @@ console.log("b-- =", b--);
  * Modulus assignment (%=)
  * Exponentiation assignment (**=)
  * 
- * We can you all the arithmetic operators
+ * We can use all the arithmetic operators
  * in assignment operator's form
  */
 let c = 5;
@@ -88,3 +88,70 @@ console.log("c %= 2, c =", c %= 2);
 
 // Exponentiation assignment
 console.log("d **= 2, d =", d **= 2);
+
+/**
+ * Comparison Operators
+ * Equal to (==)
+ * Not equal to (!=)
+ * Equal to & type (===)
+ * Not equal to & type (!==)
+ * Greater than (>)
+ * Greater than or equal (>=)
+ * Less than (<)
+ * Less than or equal (<=)
+ */
+let e = 5; // number
+let f = 5; // number
+let g = "5"; // string
+let h = "6"; // string
+
+/**
+ * Equal to
+ * In Js, it implicitly converts type and compares
+ * only value is check if they are equal or not
+ * type is not checked here
+ * for example, 5 == "5" 
+ * it converts "5" (string) -> 5 (number) 
+ * then compares.
+ */
+console.log("e == f,", e == f);
+console.log("e == g,", e == g);
+
+/**
+ * Not equal to
+ * vice versa of Equal to
+ */
+console.log("e != h,", e != h);
+
+/**
+ * Equal to & type
+ * This is strict equality.
+ * both value and type is compared strictly
+ */
+console.log("e === g,", e === g);
+
+/**
+ * Not equal to & type
+ * vice versa of Equal to & type
+ */
+console.log("e !== g,", e !== g);
+
+/**
+ * Greater than
+ */
+console.log("e > f,", e > f);
+
+/**
+ * Greater than or equal
+ */
+console.log("e >= f,", e >= f);
+
+/**
+ * Less than
+ */
+console.log("e < f,", e < f);
+
+/**
+ * Less than or equal
+ */
+console.log("e <= f,", e <= f);
