@@ -198,3 +198,11 @@ if (age >= 0 && age <= 12) {
 } else {
     console.log("age is not valid");
 }
+
+/**
+ * Ternary Operators
+ * simpler, compact if-else
+ * condition ? true output : false output
+ */
+let result = age >= 18 ? "adult" : "not adult";
+console.log(result);
