@@ -12,7 +12,7 @@
  * for Loop
  * let i = 1;   initialization (once)
  * i <= 5;      condition (stopping condition)
- * i++          updatation
+ * i++          updation
  */
 for (let i = 1; i <= 5; i++) {
     console.log("apna college");
@@ -35,7 +35,7 @@ console.log("for loop has ended");
  * while Loop
  * let i = 1;   initialization at beginning (outside)
  * i <= 5       while loop only checks condition
- * i++          updatation happens inside loop
+ * i++          updation happens inside loop
  */
 let i = 1;
 while (i <= 5) {
@@ -58,3 +58,33 @@ do {
 } while (j <= 5);
 
 console.log("do-while loop has ended");
+
+/**
+ * for-of Loop
+ * it is a special loop that helps us
+ * to iterate through strings and arrays
+ * it is also called iterator
+ */
+let str = "apna college";
+
+for (let i of str) {
+    console.log("i =", i);
+}
+
+/**
+ * for-in Loop
+ * it is a special loop that helps us
+ * to iterate through objects and arrays
+ * for objects it gives us key and we can
+ * use that to access our value of that key.
+ */
+const student = {
+    name : "Nazmus Sakib",
+    age : 20,
+    cgpa : 8.9,
+    isPass : true,
+};
+
+for (let i in student) {
+    console.log("key =", i, " value =", student[i]);
+}
