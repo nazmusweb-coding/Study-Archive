@@ -7,3 +7,16 @@
  * for-of Loop (special loop)
  * for-in Loop (special loop)
  */
+
+/**
+ * for Loop
+ * let i = 1;   initialization (once)
+ * i <= 5;      condition (stopping condition)
+ * i++          updatation
+ */
+for (let i = 1; i <= 5; i++) {
+    console.log("apna college");
+}
+
+console.log("for loop has ended");
+
