@@ -30,3 +30,15 @@ console.log("for loop has ended");
  * 
  * it is a infinite loop
  */
+
+/**
+ * while Loop
+ * let i = 1;   initialization at beginning (outside)
+ * i <= 5       while loop only checks condition
+ * i++          updatation happens inside loop
+ */
+let i = 1;
+while (i <= 5) {
+    console.log("apna college");
+    i++;
+}
