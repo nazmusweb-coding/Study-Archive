@@ -88,3 +88,35 @@ const student = {
 for (let i in student) {
     console.log("key =", i, " value =", student[i]);
 }
+
+// Strings
+// Create String
+let strVar = "Apna College";
+
+// String length
+console.log(str.length);
+
+// String indices
+console.log(str[0], str[1], str[2]);
+
+/**
+ * Template literals
+ * special type of string
+ */
+let string = `This is a template literal.`;
+console.log(string);
+
+// String interpolation
+let obj = {
+    item: "pen",
+    price: 10,
+};
+
+let output = `the cost of ${obj.item} is ${obj.price} taka`;
+console.log(output);
+
+// Escape characters
+// \n next line
+console.log("Nazmus\nSakib");
+// \t tab space
+console.log("Nazmus\tSakib");
