@@ -120,3 +120,55 @@ console.log(output);
 console.log("Nazmus\nSakib");
 // \t tab space
 console.log("Nazmus\tSakib");
+
+/**
+ * String Methods
+ * These are built-in functions to manipulate a string
+ */
+
+// str.toUpperCase()
+let stringVar = "Bangladesh Bank Adarsha High School";
+console.log(stringVar.toUpperCase());
+
+// str.toLowerCase()
+let stringVar2 = "United International University";
+console.log(stringVar2.toLowerCase());
+
+// str.trim() removes whitespace at starting and ending
+let stringVar3 = "    Youtube is very useful  ";
+console.log(stringVar3.trim());
+
+// str.slice(start, end) last ending index is not inclusive
+let stringVar4 = "0123456789";
+console.log(stringVar4.slice(1, 6));
+
+// str1.concat(str2)
+let stringVar5 = "Nazmus ";
+let stringVar6 = "Sakib";
+console.log(stringVar5.concat(stringVar6));
+
+// str.replace(searchVal, newVal) replaces only first match
+let stringVar7 = "Hello World! ello";
+console.log(stringVar7.replace("ello", "allo"));
+
+// str.replaceAll(searchVal, newVal) replaces all the match
+console.log(stringVar7.replaceAll("ello", "allo"));
+
+// str.charAt(idx)
+let stringVar8 = "I love JS";
+console.log(stringVar8.charAt(3));
+
+/** 
+ * If we want to change a string we have to completly reassign it
+ * we can do it using methods or normally just reassign with changes
+ * str = "Nazmus SakIb";
+ * str[10] = "i" // this will not take effect
+ * str = "Nazmus Sakib" // normally completly reassign it with changes
+ * or
+ * str = str.replace("I", "i")                  // use method replace
+ * or
+ * str = str.replaceAll(str, "Nazmus Sakib")    // use replaceAll method
+ * It depends on you how you do it.
+ */
+
+
