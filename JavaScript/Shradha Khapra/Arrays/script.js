@@ -35,3 +35,5 @@ for (let i = 0; i < heroes.length; i++) {
 for (let hero of heroes) {
     console.log(hero);
 }
+
+// Array Methods
