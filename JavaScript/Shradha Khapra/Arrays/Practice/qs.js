@@ -30,3 +30,22 @@ for (let i = 0; i < prices.length; i++) {
 }
 
 console.log(prices);
+
+/**
+ * Qs. Create an array to store companies ->
+ * "Boomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"
+ * a. Remove the first comopany from the array
+ * b. Remove Uber and Add Ola in its place
+ * c. Add Amazon at the end
+ */
+
+let companies = ["Boomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+
+companies.shift();
+console.log(companies);
+
+companies.splice(1, 1, "Ola");
+console.log(companies);
+
+companies.push("Amazon");
+console.log(companies);
