@@ -37,3 +37,41 @@ for (let hero of heroes) {
 }
 
 // Array Methods
+// push() add to end
+let foodItems = ["potato", "apple", "litchi", "tomato"];
+foodItems.push("chips", "burger")
+console.log(foodItems);
+
+// pop() remove from the end and return
+let deletedItem = foodItems.pop();
+console.log(foodItems);
+console.log("deleted", deletedItem);
+
+// toString() conversts array to string
+let beString = foodItems.toString() ;
+console.log(beString);
+
+// concat() joins multiple arrays and returns result
+let marvelHeroes = ["thor", "spiderman", "ironman"];
+let dcHeroes = ["superman", "batman"];
+let indianHeroes = ["shaktiman", "krish"];
+let allHeroes = marvelHeroes.concat(dcHeroes, indianHeroes);
+console.log(allHeroes);
+
+// unshift() add to start
+marvelHeroes.unshift("antman");
+console.log(marvelHeroes);
+
+// shift() remove from the start and return
+let removedhero = indianHeroes.shift();
+console.log("deleted", removedhero);
+
+// splice() removes or replace or add and returns deleted array
+let names = ["Sakib", "Sujon", "Sriti"];
+console.log(names.splice(1, 1, "Sharmin", "Emma"));
+console.log(names);
+
+// slice() returns a piece of the array
+let ifterItems = ["Muri", "Boot", "Piyaju", "Alur Chop", "Beguni", "Jilapi"];
+console.log(ifterItems.slice(3, 5));
+console.log(ifterItems.slice(3));
