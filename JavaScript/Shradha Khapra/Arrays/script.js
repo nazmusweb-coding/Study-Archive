@@ -37,7 +37,7 @@ for (let hero of heroes) {
 }
 
 // Array Methods
-// push() add to end
+// push() add to end and return new length
 let foodItems = ["potato", "apple", "litchi", "tomato"];
 foodItems.push("chips", "burger")
 console.log(foodItems);
@@ -58,7 +58,7 @@ let indianHeroes = ["shaktiman", "krish"];
 let allHeroes = marvelHeroes.concat(dcHeroes, indianHeroes);
 console.log(allHeroes);
 
-// unshift() add to start
+// unshift() add to start and return new length
 marvelHeroes.unshift("antman");
 console.log(marvelHeroes);
 
